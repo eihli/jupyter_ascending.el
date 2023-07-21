@@ -60,5 +60,5 @@
       (setq display-buffer-alist (remove `(,shell-command-buffer-name-async (display-buffer-no-window)) display-buffer-alist))
       (remove-hook 'after-save-hook #'jupyter-ascending-sync))))
 
-(provide 'jupyter-ascending-mode)
+(provide 'jupyter-ascending)
 ;;; jupyter-ascending-mode.el ends here
